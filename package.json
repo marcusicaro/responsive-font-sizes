@@ -1,6 +1,6 @@
 {
   "name": "responsive-font-sizes",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Your Tailwind CSS Plugin Description",
   "main": "index.js",
   "scripts": {
