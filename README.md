@@ -1,6 +1,6 @@
 # Responsive Font Sizes
 
-> Your Tailwind CSS Plugin Description
+A lightweight and easy to use responsive font size plugin.
 
 Install the plugin from npm:
 
@@ -13,21 +13,6 @@ Then add the plugin to your `tailwind.config.js` file:
 ```js
 // tailwind.config.js
 module.exports = {
-  theme: {
-    // ...
-    // Optional. Your plugin might not have any options at all.
-    responsiveFontSizes: {
-      // ...
-      YOUR_PLUGIN_CUSTOM_OPTION: true,
-      // ...
-    },
-  },
-  variants: {
-    // ...
-    // Optional. Your plugin might not have any variants at all.
-    responsiveFontSizes: ['responsive'],
-    // ...
-  },
   plugins: [
     // ...
     require('responsive-font-sizes'),
@@ -36,19 +21,6 @@ module.exports = {
 };
 ```
 
-This plugin will generate following CSS:
-
-```css
-/* ... */
-.example-utility-class {
-  display: block;
-}
-
-.custom-utility-class {
-  background-color: red;
-}
-/* ... */
-```
 
 ## License
 
